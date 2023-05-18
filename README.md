@@ -23,5 +23,6 @@
         flex-wrap: wrap;
     }
 
-![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7e20c8fe-e1f4-4d44-aa62-253813b97306)
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/96ddd9b3-d866-4ed7-963b-5c710a214722)
+
 #### obs: nesse exemplo estou na tela de 443 x 549
