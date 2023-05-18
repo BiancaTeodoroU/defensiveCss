@@ -44,5 +44,5 @@
     img {
         object-fit: cover;
     }
-
+#### e você terá esse resultado, é identica a imagem normal, porém essa tendo o object-fit: cover quando o usuário fizer dowload da imagem ela não esticara.
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/358b325d-e09f-414f-8f08-49d84202f4a2)
