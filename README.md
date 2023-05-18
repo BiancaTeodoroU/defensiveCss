@@ -94,5 +94,38 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/e69cbf9f-404e-4fc3-94c7-618eac4c6462)
 
+### Auto-fit Vs Auto-fill
 
+#### Ao usar minmax()a função de grade CSS, é importante decidir entre usar as palavras-chave auto-fitou auto-fill. Quando usado incorretamente, pode levar a resultados inesperados.
 
+#### Ao usar minmax()a função, a auto-fitpalavra-chave expandirá os itens da grade para preencher o espaço disponível. Enquanto auto-fillmanterá o espaço disponível reservado sem alterar a largura dos itens da grade.
+
+#### Auto fill
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/4c80e8f4-2990-4e77-9ee6-ff477d21c715)
+
+#### auto fit
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/b8e69fe1-789f-4d79-addf-428526bed9af)
+
+#### Dito isto, o uso auto-fitpode levar a itens de grade muito amplos, especialmente quando eles são menores do que o esperado. Considere o seguinte exemplo.
+
+    .exemplo {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+        grid-gap: 1rem;
+    }
+
+#### Se houver apenas um item de grade e auto-fitfor usado, o item será expandido para preencher a largura do contêiner.
+
+<!--imagem de exemplo-->
+
+#### Na maioria das vezes, tal comportamento não é necessário, então usar auto-fillé melhor na minha opinião.
+
+    .exemplo {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+        grid-gap: 1rem;
+    }
+
+<!--imagem de exemplo-->
