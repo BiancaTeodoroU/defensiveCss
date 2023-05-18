@@ -52,3 +52,28 @@
     }
 #### e você terá esse resultado, é identica a imagem normal, porém essa tendo o object-fit: cover quando o usuário carregar essa imagem ela não esticara.
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/358b325d-e09f-414f-8f08-49d84202f4a2)
+
+### Long Content
+
+#### Nesse exemplo foi criada uma lista de nomes, nela parece que está tudo certo. Porém como se trata de conteúdo gerado pelo usuário, temos que ter cuidado em como defender o layout, pra caso fique muito longo.
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/c367e5f4-b441-43fd-be71-42d6aceb7dfc)
+
+#### Nos layouts a consistência é importante. Para solucionarmos o problema podemos truncar o nome usando text-overflow e outras propriedades.
+
+    .exemplo {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+#### Texto grande 
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/f6042b69-b140-480a-b16b-6e1479eb3528)
+
+#### usando o text-overflow e outras propriedades 
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/15e1aa51-2eff-42ec-b52b-2ef94a19b170)
+
+
+
