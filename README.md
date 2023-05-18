@@ -89,7 +89,7 @@
 #### Se o titulo tiver espaçamento e o truncamento de texto, não veremos mais esse problema.
 
     .exemplo {
-        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/e69cbf9f-404e-4fc3-94c7-618eac4c6462)
