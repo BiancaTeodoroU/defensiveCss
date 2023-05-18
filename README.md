@@ -75,5 +75,24 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/15e1aa51-2eff-42ec-b52b-2ef94a19b170)
 
+### Component Spacing
+
+#### Como desenvolvedores, precisamos sempre levar em conta diferentes comprimentos de conteúdo. Isso significa que o espaçamento deve ser adicionado a um componente, mesmo que pareça desnecessário.
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/743e7698-afa9-4492-ac3f-11ec8c1dcc20)
+
+#### No exemplo abaixo podemos ver como o texto está muito perto da imagem
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/b9d0acf7-0f66-4bc6-85b1-e4276c00f97b)
+
+#### Neste exemplo, podemos ver que tem um titulo de seção e uma imagem no lado direito.Mas podemos ver abaixo que o texto está muito perto da imagem, nessa situação ja podemos nos lembrar do truncate que usamos anteriormente mas por enquanto vamos nos concentrar no espaçamento.
+
+#### Se o titulo tiver espaçamento e o truncamento de texto, não veremos mais esse problema.
+
+    .exemplo {
+        margin-left: 1rem;
+    }
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/e69cbf9f-404e-4fc3-94c7-618eac4c6462)
+
 
 
