@@ -16,6 +16,10 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/ce551bc9-79fa-493e-a731-1b666bd19677)
 
+#### Conforme for diminuindo a tela, nesse caso estou em 443 x 549 somente usando o display: flex
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/4476196c-bd10-4146-97aa-06d6fc28f559)
+
 #### Mesmo com somente o display: flex como os itens ainda estão próximos uns dos outros. Para corrigir isso, precisamos permitir os itens ficarem flexiveis.
 
     .exemplo {
