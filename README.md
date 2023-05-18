@@ -24,5 +24,4 @@
     }
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7e20c8fe-e1f4-4d44-aa62-253813b97306)
-
 #### obs: nesse exemplo estou na tela de 443 x 549
