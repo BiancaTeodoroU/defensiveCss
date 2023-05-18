@@ -31,6 +31,8 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/96ddd9b3-d866-4ed7-963b-5c710a214722)
 
+#### Ou seja se eu tivesse deixado somente o display: flex a nossa imagem conforme o tamanho de tela fosse menor, não iriam ficar agrupados um abaixo do outro por padrão, mas adicionando a propriedade flex-wrap: wrap conforme o tamanho de tela for menor ele vai deixando um item abaixo do outro.
+
 ### Image Distortion
 
 #### Algumas vezes acabamos não tendo controle sobre a proporção de uma imagem em uma página da web, pensando em uma solução para quando o usuário carrega uma imagem que não está alinhada com a proporção, vamos ver o seguinte exemplo:
