@@ -14,7 +14,7 @@
         display: flex;
     }
 
-![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/6375d879-68c6-468a-a96c-76b1fc7983c9)
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/ce551bc9-79fa-493e-a731-1b666bd19677)
 
 ### Mesmo com somente o display: flex como os itens ainda estão próximos uns dos outros. Para corrigir isso, precisamos permitir os itens ficarem flexiveis.
 
@@ -23,4 +23,6 @@
         flex-wrap: wrap;
     }
 
-![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/792d836e-872a-42d4-af76-baf1593b09b0)
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7e20c8fe-e1f4-4d44-aa62-253813b97306)
+
+#### obs: nesse exemplo estou na tela de 443 x 549
