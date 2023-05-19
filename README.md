@@ -178,3 +178,21 @@
             gap: 1rem;
         }
     }
+
+### CSS Variable Fallback
+
+#### Variáveis ​​CSS são bastante utilizadas para usar tanto no css quanto no javascript. Existe uma maneira na qual que podemos aplicar para usá-los de uma forma que não prejudique a experiência, caso o valor da variável CSS esteja vazio por algum motivo.
+
+#### Isso é particularmente útil ao alimentar o valor de uma variável CSS via Javascript. Aqui está um exemplo:
+
+    .exemplo {
+        max-width: calc(100% - var(--actions-width));
+    }
+
+#### A variável --actions-width está sendo utilizada dentro da calc() função e seu valor vem do Javascript. Vamos supor que o Javascript falhou por algum motivo, o que acontecerá? O max-width irá computar para nenhum.
+
+#### Podemos evitar isso com antecedência e adicionar um valor de fallback ao var().
+
+    .exemplo {
+        max-width: calc(100% - var(--actions-width, 70px));
+    }
