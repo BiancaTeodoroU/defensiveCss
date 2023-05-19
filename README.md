@@ -112,13 +112,12 @@
 
     .exemplo {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
-        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     }
 
-#### Se houver apenas um item de grade e auto-fitfor usado, o item será expandido para preencher a largura do contêiner.
+#### Se houver apenas um item de grade e auto-fit for usado, o item será expandido para preencher a largura do contêiner.
 
-<!--imagem de exemplo-->
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/c091115c-c73b-4a27-a7e0-02c67f53a200)
 
 #### Na maioria das vezes, tal comportamento não é necessário, então usar auto-fillé melhor na minha opinião.
 
@@ -128,4 +127,6 @@
         grid-gap: 1rem;
     }
 
-<!--imagem de exemplo-->
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/4cccde0b-d590-4620-ab5c-007c8c9dfff4)
+
+#### O que eu fiz em ambos os exemplos foi colocar essas propriedades no container do componente
