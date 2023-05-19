@@ -152,3 +152,29 @@
 #### Usando as propriedades
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7c7b9d3e-0b92-47be-914a-8e2b3bf68ce2)
+
+## CSS grid fixed values
+
+### Digamos que temos uma grade que contém um aparte e um principal. O CSS fica assim:
+
+    .exemplo {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 1rem;
+    }
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/63281ab8-3759-49a2-9165-fd8d68e8b074)
+
+#### Tela de celular 
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/e5b2b30e-a3d2-441c-91ac-02e5e3b6007d)
+
+### Isso será interrompido em tamanhos pequenos de viewport devido à falta de espaço. Para evitar esse problema, sempre use uma consulta de mídia ao usar a grade CSS como a acima.
+
+    @media (min-width: 600px) {
+        .exemplo {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 1rem;
+        }
+    }
