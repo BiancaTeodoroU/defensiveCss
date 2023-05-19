@@ -153,7 +153,7 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7c7b9d3e-0b92-47be-914a-8e2b3bf68ce2)
 
-## CSS grid fixed values
+### CSS grid fixed values
 
 ### Digamos que temos uma grade que contém um aparte e um principal. O CSS fica assim:
 
