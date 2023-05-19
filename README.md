@@ -96,9 +96,9 @@
 
 ### Auto-fit Vs Auto-fill
 
-#### Ao usar minmax()a função de grade CSS, é importante decidir entre usar as palavras-chave auto-fitou auto-fill. Quando usado incorretamente, pode levar a resultados inesperados.
+#### Ao usar minmax() a função de grade CSS, é importante decidir entre usar as palavras-chave auto-fitou auto-fill. Quando usado incorretamente, pode levar a resultados inesperados.
 
-#### Ao usar minmax()a função, a auto-fitpalavra-chave expandirá os itens da grade para preencher o espaço disponível. Enquanto auto-fillmanterá o espaço disponível reservado sem alterar a largura dos itens da grade.
+#### Ao usar minmax() a função, a auto-fit palavra-chave expandirá os itens da grade para preencher o espaço disponível. Enquanto auto-fill manterá o espaço disponível reservado sem alterar a largura dos itens da grade.
 
 #### Auto fill
 
