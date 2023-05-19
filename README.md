@@ -108,7 +108,7 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/b8e69fe1-789f-4d79-addf-428526bed9af)
 
-#### Dito isto, o uso auto-fitpode levar a itens de grade muito amplos, especialmente quando eles são menores do que o esperado. Considere o seguinte exemplo.
+#### Dito isto, o uso auto-fit pode levar a itens de grade muito amplos, especialmente quando eles são menores do que o esperado. Considere o seguinte exemplo.
 
     .exemplo {
         display: grid;
