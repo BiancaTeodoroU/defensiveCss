@@ -134,7 +134,7 @@
 
 #### Se repararmos muitas vezes, quando usamos uma imagem grande como plano de fundo, a gente acaba esquecendo de levar em consideração o caso em que o design seja visualizado em uma tela grande. E com isso o plano de fundo será repetido por padrão.
 
-### Isso geralmente não será visível na tela de um laptop, mas pode ser visto claramente em telas maiores.
+#### Isso geralmente não será visível na tela de um laptop, mas pode ser visto claramente em telas maiores.
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/6765e822-562c-4fc5-b917-e052ff0619f7)
 
