@@ -112,7 +112,8 @@
 
     .exemplo {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 1rem;
     }
 
 #### Se houver apenas um item de grade e auto-fit for usado, o item será expandido para preencher a largura do contêiner.
