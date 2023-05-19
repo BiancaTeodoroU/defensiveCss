@@ -120,7 +120,7 @@
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/c091115c-c73b-4a27-a7e0-02c67f53a200)
 
-#### Na maioria das vezes, tal comportamento não é necessário, então usar auto-fillé melhor na minha opinião.
+#### Na maioria das vezes, tal comportamento não é necessário, então usar auto-fill é melhor na minha opinião.
 
     .exemplo {
         display: grid;
@@ -129,5 +129,3 @@
     }
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/4cccde0b-d590-4620-ab5c-007c8c9dfff4)
-
-#### O que eu fiz em ambos os exemplos foi colocar essas propriedades no container do componente
