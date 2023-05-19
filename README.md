@@ -129,3 +129,26 @@
     }
 
 ![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/4cccde0b-d590-4620-ab5c-007c8c9dfff4)
+
+### Background repeat
+
+#### Se repararmos muitas vezes, quando usamos uma imagem grande como plano de fundo, a gente acaba esquecendo de levar em consideração o caso em que o design seja visualizado em uma tela grande. E com isso o plano de fundo será repetido por padrão.
+
+### Isso geralmente não será visível na tela de um laptop, mas pode ser visto claramente em telas maiores.
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/6765e822-562c-4fc5-b917-e052ff0619f7)
+
+#### Tela de laptop
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/f4fbd8b0-79d8-4105-bd21-fcbce0a12504)
+
+#### Para evitar esse comportamento com antecedência, certifique-se de redefinir background-repeat.
+
+    .exemplo {
+        background-image: url('...');
+        background-repeat: no-repeat;
+    }
+
+#### Usando as propriedades
+
+![image](https://github.com/BiancaTeodoroU/defensiveCss/assets/101062400/7c7b9d3e-0b92-47be-914a-8e2b3bf68ce2)
